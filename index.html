@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="fields">
+            <label for="name">Имя: </label>
+            <input id="name" type="text" class="name" placeholder="Имя пользователя">
+            <label for="name" style="margin-top:1em;">Текст сообщения: </label>
+            <textarea id="message" cols="30" rows="10" class="message" placeholder="Текст сообщения"></textarea>
+            <button class="btn btn-send">Отправить</button>
+            <button class="btn btn-show">Показать историю</button>
+        </div>
+        <div class="history">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
